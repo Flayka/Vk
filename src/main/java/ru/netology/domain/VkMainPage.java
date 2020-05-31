@@ -13,13 +13,14 @@ public class VkMainPage {
     private int replyPostId;
     private int friendsOnly;                  //можно использовать boolean
     private CommentsInfo commentsInfo;
+    private String copyright;
     private LikesInfo likesInfo;
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
     private String postType;
     private PostSourceInfo postSourceInfo;
     private GeoInfo geoInfo;
-    private int signerId;                  //можно использовать boolean
+    private int signerId;
     private int canPin;                  //можно использовать boolean
     private int canDelete;                  //можно использовать boolean
     private int canEdit;                  //можно использовать boolean
@@ -219,4 +220,13 @@ public class VkMainPage {
     public void setPostpondId(int postpondId) {
         this.postpondId = postpondId;
     }
+
+    public String getCopyright() {
+        return copyright;
+    }
+
+    public void setCopyright(String copyright) {
+        this.copyright = copyright;
+    }
+
 }
