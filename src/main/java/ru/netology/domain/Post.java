@@ -1,7 +1,7 @@
 
 package ru.netology.domain;
 
-public class VkMainPage {
+public class Post {
 
     private int id;
     private int ownerId;

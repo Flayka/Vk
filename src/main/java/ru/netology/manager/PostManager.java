@@ -1,12 +1,12 @@
 package ru.netology.manager;
 
-import ru.netology.domain.VkMainPage;
+import ru.netology.domain.Post;
 
 public class PostManager {
-    private VkMainPage[] vkMainPages;
+    private Post[] posts;
 
-    public VkMainPage[] search (int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
-// TODO: add logic
+    public Post[] search (int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
+        //* TODO: add logic
         return null;
     }
 
